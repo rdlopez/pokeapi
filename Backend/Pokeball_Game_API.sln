@@ -3,7 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30309.148
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeball_Game_API", "Pokeball_Game_API\Pokeball_Game_API.csproj", "{A8026353-F3C9-47CC-A3B9-63A4F9D5014E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Pokeball_Game_API", "Pokeball_Game_API\Pokeball_Game_API.csproj", "{A8026353-F3C9-47CC-A3B9-63A4F9D5014E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeball_Database", "Pokeball_Database\Pokeball_Database.csproj", "{BD0CC58B-7693-4B1C-B99B-5AD84C4B5727}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pokeball_Domain", "Pokeball_Domain\Pokeball_Domain.csproj", "{FC83AD31-4727-4E96-80D6-A5E9D2002998}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +19,14 @@ Global
 		{A8026353-F3C9-47CC-A3B9-63A4F9D5014E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A8026353-F3C9-47CC-A3B9-63A4F9D5014E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A8026353-F3C9-47CC-A3B9-63A4F9D5014E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BD0CC58B-7693-4B1C-B99B-5AD84C4B5727}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BD0CC58B-7693-4B1C-B99B-5AD84C4B5727}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BD0CC58B-7693-4B1C-B99B-5AD84C4B5727}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BD0CC58B-7693-4B1C-B99B-5AD84C4B5727}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FC83AD31-4727-4E96-80D6-A5E9D2002998}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FC83AD31-4727-4E96-80D6-A5E9D2002998}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FC83AD31-4727-4E96-80D6-A5E9D2002998}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FC83AD31-4727-4E96-80D6-A5E9D2002998}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

@@ -10,6 +10,7 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
+using Pokeball_Game_API.API.Extensions;
 
 namespace Pokeball_Game_API
 {
@@ -26,6 +27,13 @@ namespace Pokeball_Game_API
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddDBConfiguration(Configuration.GetConnectionString("PokeballDatabase"));
+            //services.AddAutoMapper(typeof(Startup));
+            //services.AddRepositories();
+            //services.AddServices();
+            //services.AddLoggerService();
+            //services.AddCorsDomainConfiguration(MyAllowSpecificOrigins);
+            //services.AddSwaggerGen();
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
