@@ -6,4 +6,3 @@ C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Domain\obj\Debug\ne
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Domain\obj\Debug\netcoreapp3.1\Pokeball_Domain.csproj.CoreCompileInputs.cache
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Domain\obj\Debug\netcoreapp3.1\Pokeball_Domain.dll
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Domain\obj\Debug\netcoreapp3.1\Pokeball_Domain.pdb
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Domain\obj\Debug\netcoreapp3.1\Pokeball_Domain.csprojAssemblyReference.cache

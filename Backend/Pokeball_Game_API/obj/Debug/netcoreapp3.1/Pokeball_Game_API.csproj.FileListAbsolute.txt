@@ -63,3 +63,5 @@ C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\bin\Debug\
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\bin\Debug\netcoreapp3.1\Microsoft.EntityFrameworkCore.Design.dll
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\obj\Debug\netcoreapp3.1\Pokeball_Game_API.csproj.CoreCompileInputs.cache
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\obj\Debug\netcoreapp3.1\Pokeball_Game_API.MvcApplicationPartsAssemblyInfo.cache
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\bin\Debug\netcoreapp3.1\Pokeball_Services.dll
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Game_API\bin\Debug\netcoreapp3.1\Pokeball_Services.pdb

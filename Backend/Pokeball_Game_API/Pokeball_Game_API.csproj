@@ -16,6 +16,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Pokeball_Database\Pokeball_Database.csproj" />
+    <ProjectReference Include="..\Pokeball_Services\Pokeball_Services.csproj" />
   </ItemGroup>
 
 

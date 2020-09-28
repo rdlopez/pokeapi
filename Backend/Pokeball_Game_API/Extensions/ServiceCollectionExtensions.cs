@@ -1,6 +1,10 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.DependencyInjection;
 using Pokeball_Database.Context;
+using Pokeball_Services.ContractServices;
+using Pokeball_Services.EntityServices;
+using Pokeball_Services.UtilityServices;
+using System.Net.Http;
 
 namespace Pokeball_Game_API.API.Extensions
 {
@@ -12,6 +16,9 @@ namespace Pokeball_Game_API.API.Extensions
 
         public static void AddServices(this IServiceCollection services)
         {
+            services.AddScoped<IPKHttpClient, PkHttpClient>();
+            services.AddScoped<HttpClient, HttpClient>();
+            services.AddScoped<IPokemonService, PokemonService>();
         }       
 
         public static void AddDBConfiguration(this IServiceCollection services, string connectionString)

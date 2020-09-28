@@ -1,0 +1,10 @@
+{
+  "version": 2,
+  "dgSpecHash": "tzZTFLE38IrJ/yP5I+XkzriCsllOchp9wvMNj+rwJrNdBY7G0z8vrv3FYKlBCnu4WC13a2b8VPlqVYlgi7F3Sw==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\RUBEN VILLOTA\\source\\repos\\pokeapi\\Backend\\Pokeball_Services\\Pokeball_Services.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\RUBEN VILLOTA\\.nuget\\packages\\newtonsoft.json\\12.0.3\\newtonsoft.json.12.0.3.nupkg.sha512"
+  ],
+  "logs": []
+}
