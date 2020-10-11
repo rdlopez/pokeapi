@@ -1,0 +1,12 @@
+.poke-element{
+    background: #ffffff;  /* Fondo, debe ser más claro que el borde */
+	border: 1px solid  black;  /* Grosor del Borde */  /* Color del Borde */
+	color: black;  /* Color del texto */
+	text-align: center;  /* Alineación del texto */
+    /* box-shadow: 2px 2px 2px rgba(254,202,27, .4) ; */
+    box-shadow: 2px 2px 2px rgba(239,83,80, .8);
+}
+
+.container{
+    background-color: #ffffff;
+}

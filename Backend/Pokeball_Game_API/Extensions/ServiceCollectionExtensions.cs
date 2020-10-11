@@ -42,9 +42,11 @@ namespace Pokeball_Game_API.API.Extensions
                                   builder =>
                                   {
                                       builder.WithOrigins("http://localhost:4200");
+                                      builder.AllowAnyHeader();
+                                      builder.AllowAnyOrigin();
                                       builder.AllowAnyMethod();
                                   });
             });
         }
-    }
+    }   
 }

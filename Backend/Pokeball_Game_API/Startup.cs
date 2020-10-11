@@ -17,6 +17,7 @@ namespace Pokeball_Game_API
 {
     public class Startup
     {
+        readonly string MyAllowSpecificOrigins = "_myAllowSpecificOrigins";
         public Startup(IConfiguration configuration)
         {
             Configuration = configuration;
@@ -27,10 +28,28 @@ namespace Pokeball_Game_API
         // This method gets called by the runtime. Use this method to add services to the container.
         public void ConfigureServices(IServiceCollection services)
         {
+            services.AddCors(options =>
+            {
+                options.AddPolicy("Policy",
+                    builder =>
+                    {
+                        builder.WithOrigins("http://localhost:4200","http://www.contoso.com");
+                        builder.AllowAnyOrigin();
+                        builder.AllowAnyHeader();
+                        builder.AllowAnyMethod();
+                    });
+                //options.AddDefaultPolicy(
+                //    builder =>
+                //    {
+                //        builder.WithOrigins("http://localhost:4200",
+                //                            "http://www.contoso.com");
+                //        builder.AllowAnyHeader();
+                //        builder.AllowAnyOrigin();
+                //    });
+            });
+
             services.AddControllers();
             services.AddDBConfiguration(Configuration.GetConnectionString("PokeballDatabase"));
-            //services.AddAutoMapper(typeof(Startup));
-            //services.AddRepositories();
             services.AddServices();
             //services.AddLoggerService();
             //services.AddCorsDomainConfiguration(MyAllowSpecificOrigins);
@@ -52,6 +71,8 @@ namespace Pokeball_Game_API
             app.UseHttpsRedirection();
 
             app.UseRouting();
+
+            app.UseCors();
 
             app.UseAuthorization();
 

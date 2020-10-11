@@ -18,5 +18,10 @@ namespace Pokeball_Services.EntityServices
             var result = client.GetAll(identifier);
             return JsonConvert.DeserializeObject<BaseResult<Pokemon>>(result);
         }
+        public Pokemon GetById(int id, string identifier)
+        {
+            var result = client.GetById(identifier, id);
+            return JsonConvert.DeserializeObject<Pokemon>(result);
+        }
     }
 }

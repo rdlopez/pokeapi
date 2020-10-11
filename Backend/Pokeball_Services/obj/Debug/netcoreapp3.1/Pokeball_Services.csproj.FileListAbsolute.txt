@@ -1,12 +1,12 @@
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\bin\Debug\netcoreapp3.1\Pokeball_Services.deps.json
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\bin\Debug\netcoreapp3.1\Pokeball_Services.dll
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\bin\Debug\netcoreapp3.1\Pokeball_Services.pdb
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.AssemblyInfoInputs.cache
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.AssemblyInfo.cs
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.dll
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.pdb
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\bin\Debug\netcoreapp3.1\Pokeball_Domain.dll
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\bin\Debug\netcoreapp3.1\Pokeball_Domain.pdb
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.csprojAssemblyReference.cache
-C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.csproj.CopyComplete
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.AssemblyInfoInputs.cache
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.AssemblyInfo.cs
 C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.csproj.CoreCompileInputs.cache
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.csproj.CopyComplete
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.dll
+C:\Users\RUBEN VILLOTA\source\repos\pokeapi\Backend\Pokeball_Services\obj\Debug\netcoreapp3.1\Pokeball_Services.pdb
